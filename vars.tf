@@ -1,6 +1,5 @@
 variable "region" {
-    default = "us-east-1"
-    //default = "us-east-2"
+    default = "us-east-2"
 }
 
 variable "vpc_cidr" {
@@ -20,7 +19,7 @@ variable "cidr_block_all_traffic" {
 }
 
 variable "ec2_key_name" {
-    default = "KeyTerra"  
+    default = "ec2_ubuntu_practice"  
 }
 
 variable "ports" {
